@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         MainDialog.cpp \
     ConnectionManager.cpp \
-    EventGenerator.cpp
+    EventGenerator.cpp \
+    ServerPinger.cpp
 
 HEADERS  += MainDialog.h \
     ConnectionManager.h \
-    EventGenerator.h
+    EventGenerator.h \
+    ServerPinger.h
 
 FORMS    += MainDialog.ui
